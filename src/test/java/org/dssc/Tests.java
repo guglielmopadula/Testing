@@ -24,7 +24,7 @@ public class Tests {
         Image1.setRGB(0, 0, Color.WHITE.getRGB());
         BufferedImage Image2 = new BufferedImage(20, 10, TYPE_BYTE_BINARY);
         Image2.setRGB(0, 0, Color.BLACK.getRGB());
-        assertEquals(false, Utils.compareImages(Image1, Image2));
+        assertEquals(true, Utils.compareImages(Image1, Image2));
     }
     @Test
     void test_render_pixel(){

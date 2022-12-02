@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.dssc.Tests" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-11-27T13:03:11" hostname="cyberguli-HP-EliteBook-830-G8-Notebook-PC" time="0.039">
+  <properties/>
+  <testcase name="test_compare_images_true()" classname="org.dssc.Tests" time="0.03"/>
+  <testcase name="test_snapshot()" classname="org.dssc.Tests" time="0.005"/>
+  <testcase name="test_render_pixel()" classname="org.dssc.Tests" time="0.002"/>
+  <testcase name="test_compare_images_false()" classname="org.dssc.Tests" time="0.001"/>
+  <system-out><![CDATA[-1
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
